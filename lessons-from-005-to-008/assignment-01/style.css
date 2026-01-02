@@ -1,0 +1,24 @@
+div {
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.assign-1-shape-1 {
+    
+    background-color:#8a2be2;
+    color: white;
+}
+
+.assign-1-shape-2 {
+    background-color: hsl(271, 76%, 53%, 50%);
+    color: white;
+
+}
+
+.assign-1-shape-3 {
+    background-color: rgba(137, 43, 226, 0.174);
+    color: white;
+
+}
