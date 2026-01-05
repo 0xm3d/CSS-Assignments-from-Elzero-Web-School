@@ -1,0 +1,19 @@
+div {
+    width: 400px;
+    font-size: 19.5px;
+    font-family: sans-serif;
+    background-color: #f3efef;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .two {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .three {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
