@@ -1,0 +1,12 @@
+div {
+    padding: 5px;
+    border: 1px solid red;
+}
+
+p {
+    background-color: #DDDDDD;
+    text-align: center;
+    padding: inherit;
+    border: inherit;
+    margin: 5px;
+}
