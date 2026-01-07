@@ -1,0 +1,16 @@
+div {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #B3B3B3; /* Get The Background From Image */
+  color: black;
+}
+
+.one {
+  opacity: 0.3;
+}
+.two {
+  opacity: 0.1;
+}
