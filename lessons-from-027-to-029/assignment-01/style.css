@@ -1,0 +1,42 @@
+.container {
+    width: 800px;
+    padding: 0;
+    background-color: #EEEEEE;
+    float: left;
+    font-weight: bold;
+}
+
+.container .child {
+    background-color: #DDDDDD;;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.one {
+    float: left;
+    width: calc((100% - 30px) / 1);
+}
+
+.two {
+    float: left;
+    width: calc((100% - 60px) / 3);
+}
+
+.three {
+    float: left;
+    width: calc((100% - 45px) / 2);
+}
+
+
+.four{
+    float: left;
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
