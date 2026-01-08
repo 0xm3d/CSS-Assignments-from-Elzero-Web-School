@@ -1,0 +1,44 @@
+div {
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 2px solid;
+    border-color: #F44336 #2196F3;
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 20px;
+}
+
+span {
+    position: absolute;
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    background-color: #2196F3;
+}
+
+.top-left {
+    top: -11px;
+    left: -14px;
+    border-right: solid 2px #F44336;
+}
+
+.bottom-left {
+    top: 103px;
+    left: -14px;
+    border-right: solid 2px #F44336;
+}
+
+.top-right {
+    top: -11px;
+    right: -14px;
+    border-left: solid 2px #F44336;
+}
+
+.bottom-right {
+    top: 102px;
+    right: -14px;
+    border-left: solid 2px #F44336;
+}
