@@ -1,0 +1,41 @@
+.container {
+    width: 400px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.decimal {
+    list-style-type: decimal;
+}
+
+.roman {
+    list-style-type: upper-roman;
+}
+
+.circle {
+    list-style: circle inside;
+    padding-left: 0px;
+}
+
+.circle, .roman, .decimal {
+    margin-top: 10px;
+}
+
+.html,
+.css,
+.js {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #EEEEEE;
+}
+
+ol li,
+.js ul li {
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.one {
+    margin-top: 10px;
+}
