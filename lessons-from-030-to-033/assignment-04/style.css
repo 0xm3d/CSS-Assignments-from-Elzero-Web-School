@@ -1,0 +1,52 @@
+body {
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    width: 700px;
+    border-bottom: 2px solid #009688;
+    border-spacing: 2px;
+    margin: 0 auto;
+}
+
+table thead th{
+    background-color: #404040;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+table tbody td {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 10px 0;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+button {
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    text-transform: capitalize;
+}
+
+.view {
+    background-color: #03A9F4;
+}
+
+.del {
+    background-color: #E91E63;
+}
