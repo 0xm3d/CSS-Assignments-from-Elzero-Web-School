@@ -1,0 +1,16 @@
+div {
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #dad6d6;
+    padding: 25px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div:first-letter {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: -60px;
+    background-color: red;
+    padding: 18px 12px;
+}
