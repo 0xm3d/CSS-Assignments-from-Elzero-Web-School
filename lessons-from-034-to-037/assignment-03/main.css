@@ -1,0 +1,38 @@
+p {
+    background-color: #eee;
+    text-align: center;
+    line-height: 2.5;
+    margin: 20px auto;
+    width: 380px;
+    height: 40px;
+    padding: 10px 50px 10px 0px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 4px solid #e91e63;
+}
+
+p::before {
+    content: attr(data-person);
+    position: absolute;
+    line-height: 1.5;
+    top: 5px;
+    left: -120px;
+    width: 80px;
+    height: 20px;
+    padding: 15px 5px;
+    text-align: center;
+    color: #000;
+    background-color: #dfdede;
+}
+
+p::after {
+    content: "";
+    position: absolute;
+    left: -30px;
+    margin-top: 1%;
+    width: 0px;
+    height: 0px;
+    margin-bottom: 10px;
+    border: 15px solid;
+    border-color: transparent #e91e63 transparent transparent;
+}
