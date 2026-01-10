@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.container {
+    width: 550px;
+    margin: 20px auto;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;            
+}
+
+.box {
+    background-color: #EEEEEE;
+    float: left;
+    position: relative;
+    width: calc((100% / 2) - 20px);
+    height: 300px;
+    box-sizing: content-box;
+}
+
+.one {
+    margin-right: 40px;
+}
+
+.cap {
+    background-color: #03A9F4;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.price {
+    background-color: #DDDDDD;
+    margin: 20px auto;
+    width: 200px;
+    height: 205px;
+    text-align: center;
+    line-height: 12;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.one::after {
+    content: "";
+    border-left: 2px solid #20B3F5;
+    height: inherit;
+    position: absolute;
+    right: -20px;
+    top: -1px;
+}
+
+.two::before {
+    content: "or";
+    background-color: #03A9F4;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50%;
+    width: fit-content;
+    position: absolute;
+    left: -34px;
+    top: 43%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
