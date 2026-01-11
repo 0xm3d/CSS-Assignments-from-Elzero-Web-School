@@ -1,0 +1,18 @@
+:root {
+    --mainColor: #EEEEEE;
+}
+
+div {
+    width: 400px;
+    margin: 50px auto;
+    background-color: var(--mainColor) !important;
+    color: black !important;
+    border: none !important;
+    font-size: 0 !important;
+    text-align: center;
+}
+
+div::before {
+    content: "Elzero";
+    font: bold 20px Arial;
+}
