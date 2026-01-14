@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.main div {
+    position: relative;
+    width: 600px;
+}
+
+.main div input {
+    background-color: #f8f8f8;
+    margin: 10px 0;
+    padding: 15px;
+    caret-color: red;
+    font-size: 25px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.main div::before {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    width: calc(100% + 30px);
+    height: 4px;
+    background-image: linear-gradient(to right, #e74d1e 50%, #009688 50%);
+}
