@@ -1,0 +1,19 @@
+.grid {
+    background-color: #ddd;
+    color: white;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: auto repeat(2, 1fr) auto;
+    grid-template-rows: 2fr auto;
+    gap: 20px 20px;
+}
+
+.grid div {
+    background-color: #403F3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
