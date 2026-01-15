@@ -1,0 +1,33 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 40px auto;
+    gap: 20px 20px;
+}
+
+.grid div {
+    background-color: #607D8B;
+    color: white;
+    font: bold 12px arial;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    counter-increment: counter;
+    position: relative;
+}
+
+.grid div::before {
+    width: 100%;
+    content: "Element";
+}
+
+.grid div::after {
+    content: counter(counter);
+    position: absolute;
+    right: 37%;
+}
