@@ -1,0 +1,39 @@
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: repeat(6, auto);
+    gap: 20px 20px;
+}
+
+.grid div {
+    background-color: #2196F3;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    grid-column: span 3;
+    order: 4;
+}
+
+.two {
+    grid-column: span 2;
+}
+
+.five {
+    grid-column-start: span 2;
+    grid-row-start: span 3;
+}
+
+.eight {
+    grid-column: span 3;
+    order: -3;
+}
