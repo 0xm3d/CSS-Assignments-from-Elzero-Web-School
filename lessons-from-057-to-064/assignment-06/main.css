@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cards {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    padding: 30px;
+}
+
+article {
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 10px;
+    display: grid;
+    align-content: flex-start;
+}
+
+.name-card {
+    font: Bold 16px Arial;
+}
+
+.card-role {
+    font: bold 12px arial;
+    color: #acabab;
+    padding: 5px 0;
+}
+
+.card-title {
+    font: bold 14px Arial;
+    padding: 5px 0;
+    line-height: 1.6;
+}
+
+.card-text {
+    font: 14px Arial;
+    padding: 5px 0;
+    line-height: 1.2;
+}
+
+.card-three,
+.card-five,
+.card-eight {
+    background-color: #000000;
+    color: white;
+}
+
+.card-one {
+    grid-column: span 2;
+}
+
+.card-three {
+    grid-row: span 3;
+}
+
+.card-four {
+    grid-row: span 2;
+}
+
+.card-five {
+    grid-column: span 2;
+}
+
+.card-six {
+    grid-column: span 2;
+}
+
+article::after {
+    content: "";
+    width: 100%;
+    border-bottom: 2px solid red;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+article::before {
+    content: '"';
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    color: #acabab;
+    font-size: 40px;
+    font-style: italic;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0366DA;
+}
