@@ -1,0 +1,49 @@
+:root {
+    --main-color: #009688;
+    --text-color: white;
+}
+
+h1 {
+    width: 150px;
+    height: 60px;
+    padding: 10px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font: bold 30px serif;
+    position: relative;
+}
+
+h1::before {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    padding: inherit;
+    background-color: var(--main-color);
+    transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    -o-transform: skewX(15deg);
+    left: -11px;
+}
+
+h1::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: inherit;
+    padding: inherit;
+    background-color: var(--main-color);
+    transform: skewX(15deg);
+    -webkit-transform: skewX(15deg);
+    -moz-transform: skewX(15deg);
+    -ms-transform: skewX(15deg);
+    -o-transform: skewX(15deg);
+    left: -53px;
+}
