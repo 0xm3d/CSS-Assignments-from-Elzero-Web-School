@@ -1,0 +1,42 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    z-index: -1;
+    width: 200px;
+    height: 160px;
+    margin: 100px auto;
+    background-color: #607D8B;
+    position: relative;
+    border-bottom: 4px solid black;
+}
+
+div::before {
+    content: '';
+    z-index: 1;
+    background-color: black;
+    border-bottom: 4px solid white;
+    border-right: 4px solid white;
+    width: 138px;
+    height: 138px;
+    position: absolute;
+    top: -70px;
+    left: 29px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+
+div::after {
+    content: "Med";
+    position: absolute;
+    color: white;
+    bottom: 0;
+    padding: 7px;
+}
+
