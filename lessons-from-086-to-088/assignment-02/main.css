@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.arrow {
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 15px;
+    width: 300px;
+    position: relative;
+}
+
+.arrow::before {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 0px;
+    margin-bottom: 10px;
+    border: 12px solid;
+    border-color: transparent #EEEEEE transparent transparent;
+}
+
+.top::before {
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    -webkit-transform: translateX(-50%) rotate(90deg);
+    -moz-transform: translateX(-50%) rotate(90deg);
+    -ms-transform: translateX(-50%) rotate(90deg);
+    -o-transform: translateX(-50%) rotate(90deg);
+}
+
+.right::before {
+    top: 50%;
+    right: -24px;
+    transform: translateY(-50%) rotate(180deg);
+    -webkit-transform: translateY(-50%) rotate(180deg);
+    -moz-transform: translateY(-50%) rotate(180deg);
+    -ms-transform: translateY(-50%) rotate(180deg);
+    -o-transform: translateY(-50%) rotate(180deg);
+}
+
+.bottom::before {
+    bottom: -34px;
+    left: 50%;
+    transform: translateX(-50%)rotate(-90deg);
+    -webkit-transform: translateX(-50%)rotate(-90deg);
+    -moz-transform: translateX(-50%)rotate(-90deg);
+    -ms-transform: translateX(-50%)rotate(-90deg);
+    -o-transform: translateX(-50%)rotate(-90deg);
+}
+
+.left::before {
+    top: 50%;
+    left: -24px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
